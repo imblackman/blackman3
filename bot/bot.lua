@@ -2,7 +2,7 @@
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
-our_id = 296634323 -- حط ايدي بوتك هنا
+our_id = 319530879 -- حط ايدي بوتك هنا
 URL = require "socket.url"
 http = require "socket.http"
 https = require "ssl.https"
@@ -85,7 +85,7 @@ function create_config( )
     "me",
     "tools"
  },
-    sudo_users = {296991155},-- حط ايديك
+    sudo_users = {246153792,222002038,199042636,263518546,0,tonumber(our_id)},-- حط ايديك
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
